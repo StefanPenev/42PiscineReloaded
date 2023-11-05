@@ -1,0 +1,2 @@
+echo 42 > '"\?$*'\''KwaMe'\''*$?\"'
+ls -lRa *waM* | cat -e
