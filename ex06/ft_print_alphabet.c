@@ -1,5 +1,7 @@
 #include <unistd.h>
 
+void	ft_putchar(char c);
+
 void	ft_print_alphabet(void)
 {
 	char	a;
@@ -7,7 +9,7 @@ void	ft_print_alphabet(void)
 	a = 'a';
 	while (a <= 'z')
 	{
-		write(1, &a, 1);
+		ft_putchar(a);
 		a++;
 	}
 }

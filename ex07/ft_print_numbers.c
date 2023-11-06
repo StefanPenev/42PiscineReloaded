@@ -1,5 +1,7 @@
 #include <unistd.h>
 
+void	ft_putchar(char c);
+
 void	ft_print_numbers(void)
 {
 	char	n;
@@ -7,7 +9,7 @@ void	ft_print_numbers(void)
 	n = '0';
 	while (n <= '9')
 	{
-		write(1, &n, 1);
+		ft_putchar(n);
 		n++;
 	}
 }
